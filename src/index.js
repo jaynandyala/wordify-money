@@ -1,4 +1,4 @@
 const _ = require("lodash");
 import {converter} from './converter';
 
-converter()
+converter("22")
