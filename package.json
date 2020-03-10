@@ -1,0 +1,19 @@
+{
+  "name": "wordify-money",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "JayNandyala",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

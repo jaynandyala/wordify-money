@@ -1,0 +1,4 @@
+
+#excluding shitty stuff from repo
+
+node_modules/
