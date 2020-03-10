@@ -2,18 +2,21 @@
   "name": "wordify-money",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon",
+    "build": "rimraf ./build && tsc"
   },
   "keywords": [],
   "author": "JayNandyala",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.15",
-    "typescript": "^3.8.3"
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "@types/node": "^13.9.0",
+    "nodemon": "^2.0.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
   }
 }
